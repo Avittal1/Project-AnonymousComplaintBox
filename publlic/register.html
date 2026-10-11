@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>דף בית</title>
+</head>
+<body>
+    <h1>תיאור המערכת</h1>
+    <p>מערכת המאפשרת לחיילים לשלוח תלונות אנונימיות באופן דיגיטלי.  רק מפקדים עם סיסמה מתאימה יכולים לצפות ברשימת התלונות</p>
+    <section class="manager">
+        <form action="login_process.php" method="POST">
+
+            <div class="form-manager">
+                <label for="passwor">סיסמת מנהל</label>
+                <input type="password" id="password" required>
+            </div>
+        </form>
+        <button>כניסה</button>
+    </section>
+
+    <button onclick="location.href='complaint.html'">שליחת תלונה</button>
+</body>
+</html>
